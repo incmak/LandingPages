@@ -1,0 +1,291 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+body {
+	max-width: 100%;
+	font-family: "SST W20 Roman", "SST W55 Regular", "Yu Gothic Medium",
+		"YuGothic", sans-serif;
+	background: #fff;
+	color: #000;
+	font-size: 14px;
+	line-height: 1.5em;
+	overflow-x: hidden;
+}
+.container-top {
+	min-width: 1200px;
+}
+.menu-btn {
+	display: none;
+}
+.top-nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 70px;
+	/* padding: 20px; */
+	background: #000;
+	/* border-bottom: 1px solid #363636; */
+}
+.nav-links {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+.top-nav a {
+	color: #fff;
+}
+.top-nav ul {
+	display: flex;
+}
+.top-nav .left-menu {
+	/* font-weight: bold; */
+	flex: 1;
+	margin: 0px 0 0px 30px;
+}
+.top-nav .left-menu a:hover {
+	cursor: pointer;
+	border-bottom: 2px solid #4579da;
+	padding-bottom: 0.5em;
+}
+
+.top-nav ul li {
+	padding: 0px 11px;
+}
+.top-nav .right-menu {
+	font-size: 12px;
+}
+
+.sony-logo {
+	width: 120px;
+}
+
+/* Hero Header Section */
+.hero {
+	background: #171717;
+	height: 530px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	overflow: hidden;
+}
+.hero .hero-images {
+	width: 710px;
+	padding: 10px 15px;
+	border-radius: 3%;
+}
+/* container below Hero */
+.container {
+	min-width: 1200px;
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+}
+/* Section Nav */
+
+.sec-nav {
+	font-size: 16px;
+	padding: 20px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.sec-nav .sec-nav-right {
+	font-size: 12px;
+}
+.sec-nav .sec-nav-left a {
+	color: #2c65ff;
+}
+.sec-nav .sec-nav-left a:hover {
+	color: #000;
+}
+.sec-nav .sec-nav-right a {
+	color: rgb(59, 58, 58);
+}
+.sec-nav .sec-nav-right .sec-nav-active {
+	border-bottom: 2px solid rgb(129, 129, 129);
+	padding-bottom: 0.1em;
+	cursor: context-menu;
+}
+
+/* Main-Head */
+.body-head {
+	background: #f2f2f2;
+	height: 70px;
+	display: flex;
+}
+.body-head .body-head-links {
+	display: flex;
+}
+.body-head ul {
+	display: flex;
+	padding: 12px 50px;
+}
+.body-head-left-txt {
+	font-size: 16px;
+	font-weight: bold;
+}
+.body-head-right-txt {
+	margin: 10px 30px;
+}
+.body-head .fa-chevron-down {
+	font-size: 30px;
+	margin-left: 30px;
+}
+
+/* Main Cards */
+.main-cards {
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* margin: 0 auto; */
+}
+/* .main-cards .block-1 {
+	margin:  0 auto;
+	paddin: 0 auto;
+} */
+.main-cards a {
+	/* padding: 10px 0; */
+	color: #035b92;
+	border-bottom: #000 solid 1px;
+	/* border-bottom: 1px solid #035b92; */
+}
+.main-cards a p {
+	padding: 5px 0;
+	color: #000;
+}
+.main-cards img {
+	width: 100%;
+	padding: 0 20px 10px 20px;
+	border-radius: 3px;
+	/* margin-left: 5px; */
+}
+.main-cards .card-img-2, .main-cards .card-img-8 {
+	grid-row: span 2;
+	margin-right: -20px;
+}
+.main-cards .card-img-4 {
+	grid-row: span 2;
+}
+.main-cards .card-img-5, .main-cards .card-img-6 {
+	margin-right: -20px;
+}
+.main-cards .card-img-1, .main-cards .card-img-3, .main-cards .card-img-4,
+.main-cards .card-img-7, .main-cards .card-img-9
+{
+	margin-left: -20px;
+}
+.main-cards .main-text {
+	margin: 20px;
+}
+/* Bottom cards */
+.bottom-cards {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	/* padding: 50px 0px; */
+	margin: 100px 0;
+}
+.bottom-cards img {
+	width: 145px;
+	border-radius: 3px;
+	border: 1px solid #000;
+}
+
+/* bottom Nav */
+
+/* Mobile View */
+
+@media screen and (max-width: 640px) {
+	body {
+		font-size: 20px;
+	}
+	.top-nav {
+		height: 120px;
+	}
+	.top-nav .sony-logo {
+		width: 170px;
+	}
+	.top-nav ul.left-menu {
+		display: block;
+		position: absolute;
+		top: 70px;
+		left: 0;
+		background: #000;
+		width: 100%;
+		height: 100%;
+		padding: 20px;
+		transform: translateX(-5000px);
+	}
+	.top-nav ul.left-menu li {
+		padding: 10px;
+		border-bottom: rgb(127, 127, 127) solid 1px;
+	}
+	.top-nav ul.right-menu {
+		display: none;
+	}
+	.search-menu {
+		display: block;
+		position: relative;
+		right: 630px;
+	}
+	.search-menu .fa-search {
+		font-size: 40px;
+	}
+	.menu-btn {
+		display: block;
+		position: absolute;
+		left: 1100px;
+	}
+	.menu-btn .fa-bars {
+		color: #fff;
+	}
+
+	.hero .hero-images {
+		width: 850px;
+	}
+
+	.container {
+		padding: 0 20px;
+	}
+	.sec-nav {
+		margin: 20px;
+	}
+	.sec-nav a {
+		font-size: 25px;
+	}
+	.main-cards {
+		grid-template-columns: 1fr;
+	}
+	.main-cards img {
+		padding: 100px 0 0px 0;
+	}
+	.bottom-cards {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.bottom-cards img {
+		width: 380px;
+		margin-top: 10px;
+		border-radius: 3px;
+	}
+}
+/* @media screen and (max-width: 1210px) {
+	.main-cards .card-img-1, .main-cards .card-img-3, .main-cards .card-img-4,
+.main-cards .card-img-7, .main-cards .card-img-9
+{
+	
+	padding-left: 20px;
+}
+} */
+/* @media screen and (max-width:1500px){
+	body{
+		background: aqua;
+	}
+	
+}  */
