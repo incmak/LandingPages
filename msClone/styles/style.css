@@ -216,12 +216,12 @@ img.fa-circle-o {
 	margin: 0 auto;
 	padding: 0 80px;
 	display: grid;
-	grid-template-columns: repeat(6,1fr);
+	grid-template-columns: repeat(6, 1fr);
 }
-.links-inner li{
+.links-inner li {
 	padding: 5px 0px;
 }
-.links-inner a{
+.links-inner a {
 	color: #616161;
 }
 
@@ -268,11 +268,10 @@ img.fa-circle-o {
 		grid-template-columns: 1fr 1fr;
 		padding: 0 60px;
 	}
-	.ms-logo{
+	.ms-logo {
 		position: relative;
 		left: 35%;
 	}
-	
 }
 @media screen and (max-width: 700px) {
 	body {
@@ -291,7 +290,7 @@ img.fa-circle-o {
 	.edge .content p {
 		display: none;
 	}
-	.edge .content a{
+	.edge .content a {
 		margin: 20px 0 -20px 0;
 	}
 	.sub-header {
@@ -327,6 +326,5 @@ img.fa-circle-o {
 	}
 }
 
-@media  screen and (min-width: 800px) {
-
+@media screen and (min-width: 800px) {
 }
