@@ -84,6 +84,37 @@ body {
 	padding: 10px 15px;
 	border-radius: 3%;
 }
+
+.hero-img-details a {
+	margin: 0 20px;
+	color: #fff;
+	/* font-size: 30px; */
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	line-height: 2.5em;
+}
+.hero-img-details p {
+	line-height: 1.5em;
+	text-align: center;
+	font-size: 15px;
+}
+
+.hero-img-details h1 {
+	font-size: 25px;
+}
+.hero-img-details .fst-hero-txt {
+	color: #616161;
+}
+.hero-img-details .snd-hero-txt {
+	color: #2471ed;
+}
+.hero-img-details .trd-hero-txt {
+	color: #e8c816;
+}
+.hero-img-details .fth-hero-txt {
+	color: #bf9f9f;
+}
 /* container below Hero */
 .container {
 	min-width: 1200px;
@@ -141,6 +172,12 @@ body {
 .body-head .fa-chevron-down {
 	font-size: 30px;
 	margin-left: 30px;
+}
+.body-head #body-chev-right {
+	display: none;
+}
+.body-head hr {
+	margin: 0 30px;
 }
 
 /* Main Cards */
@@ -211,7 +248,7 @@ body {
 .links {
 	background: #f2f2f2;
 	color: #616161;
-	font-size: 12;
+	/* font-size: 12px; */
 	padding: 35px 0;
 	margin: 30px 0;
 }
@@ -243,10 +280,10 @@ body {
 		font-size: 20px;
 	}
 	.top-nav {
-		height: 120px;
+		height: 180px;
 	}
 	.top-nav .sony-logo {
-		width: 170px;
+		width: 250px;
 	}
 	.top-nav ul.left-menu {
 		display: block;
@@ -272,7 +309,7 @@ body {
 		right: 630px;
 	}
 	.search-menu .fa-search {
-		font-size: 40px;
+		font-size: 60px;
 	}
 	.menu-btn {
 		display: block;
@@ -281,21 +318,64 @@ body {
 	}
 	.menu-btn .fa-bars {
 		color: #fff;
+		font-size: 70px;
 	}
-
+	.hero {
+		height: 1100px;
+	}
 	.hero .hero-images {
-		width: 850px;
+		width: 1190px;
 	}
-
+	.hero-img-details a {
+		font-size: 35px;
+		margin: 20px 30px;
+	}
+	.hero-img-details p {
+		font-size: 40px;
+		text-align: left;
+	}
+	.hero-img-details h1{
+		font-size: 60px;
+	}
 	.container {
-		padding: 0 20px;
+		padding: 0 50px;
 	}
 	.sec-nav {
-		margin: 20px;
+		margin: 100px 20px 30px 20px;
 	}
 	.sec-nav a {
-		font-size: 25px;
+		font-size: 2.5em;
 	}
+	.body-head {
+		/* box-sizing: border-box; */
+		height: 400px;
+	}
+	.body-head .body-head-links li {
+		display: flex;
+	}
+	.body-head ul {
+		display: flex;
+		flex-direction: column;
+	}
+	.body-head p {
+		font-size: 2em;
+		line-height: 3em;
+		margin: 0 0;
+	}
+	.body-head .fa-chevron-down {
+		display: none;
+	}
+	.body-head #body-chev-right {
+		display: inline;
+		margin-left: 50px;
+	}
+
+	/* .body-head{
+		font-size: 2em;;
+	}
+	.body-head .body-head-left-txt  {
+		font-size: 1.4 em;
+	} */
 	.main-cards {
 		grid-template-columns: 1fr;
 	}
@@ -308,7 +388,7 @@ body {
 	}
 	/* .main-cards .main-text h3{
 	} */
-	.main-cards .main-text a{
+	.main-cards .main-text a {
 		display: grid;
 		row-gap: 20px;
 		text-align: center;
@@ -320,7 +400,7 @@ body {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	.bottom-cards img {
-		width: 380px;
+		width: 360px;
 		margin-top: 10px;
 		border-radius: 3px;
 	}
@@ -330,7 +410,7 @@ body {
 		grid-template-columns: 1fr;
 		row-gap: 80px;
 		font-size: 2em;
-		margin: 0 10px;
+		margin: 0 50px;
 	}
 	.links li {
 		padding: 15px;
