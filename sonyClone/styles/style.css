@@ -167,10 +167,10 @@ body {
 	border-radius: 3px;
 	/* margin-left: 5px; */
 }
-.main-cards .card-img-2, .main-cards .card-img-8 {
+ .main-cards .card-img-2, .main-cards .card-img-8, .main-cards .card-img-4 {
 	grid-row: span 2;
-	margin-right: -20px;
 }
+/*
 .main-cards .card-img-4 {
 	grid-row: span 2;
 }
@@ -181,7 +181,7 @@ body {
 .main-cards .card-img-7, .main-cards .card-img-9
 {
 	margin-left: -20px;
-}
+} */
 .main-cards .main-text {
 	margin: 20px;
 }
