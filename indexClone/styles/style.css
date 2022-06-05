@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    padding: 0 4px;
+    margin-top: 4px;
+  }
+.col {
+    padding: 0 2px;
+  }
+  
+.col img {
+    width: 100%;
+  }

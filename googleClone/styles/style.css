@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    color: #000;
+}
+.top-container {
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content:flex-end;
+}
+.top-container a {
+    color: #000;
+}
+.top-links ul.right-links{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.top-links .menu3{
+    width: 20px;
+}
+.top-links .profile-icon {
+    border-radius: 50%;
+}
+/* .main-container {
+    min-width: 1000px;
+} */
+
+.google-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.google-image img.google-logo {
+    width: 280px;
+}
+.search-form {
+    display: flex;
+    justify-content: center;
+}
+.search-form input[type=text] {
+    position: relative;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(238, 236, 236);
+    margin: 10px 0;
+}
+.main-input {
+    position: relative;
+}
+svg.search-icon-svg {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    width: 20px;
+}
+svg.mic-icon-svg {
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    width: 20px;
+
+}
+.search-form .main-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.search-form .main-buttons button{
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    background: rgb(247, 246, 246);
+}
+.main-sub-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 12px;
+    column-gap: 10px;
+}
+.main-sub-text ul.main-links {
+    display: flex;
+    column-gap: 10px;
+}
+.bottom-footer {
+    background: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    padding: 10px 30px;
+    bottom: 0;
+}
+.bottom-footer hr {
+    margin: 20px 0;
+}
+.is-footer{
+    display: flex;
+    padding: 5px;
+}
+.bottom-links {
+    display: flex;
+    justify-content:center;
+}
+.bottom-links ul {
+    display: flex;
+    column-gap: 20px;
+    padding: 0 10px;
+}
+.bottom-links a {
+    color: #4d4d4d;
+}
+
+@media screen and (max-width: 768px) {
+    .google-image {
+        margin-top: 100px;
+    }
+    .google-image img.google-logo {
+        width: 150px;
+    }
+    .search-form input[type=text] {
+        width: 400px;
+    }
+    .main-sub-text {
+        display: none;
+    }
+    .main-sub-text ul.main-links{
+        font-size: 12px;
+        column-gap: 4px;
+    }
+    .bottom-links ul {
+        font-size: 12px;
+        column-gap: 10px;
+    }
+}

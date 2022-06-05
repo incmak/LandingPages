@@ -76,7 +76,6 @@ body {
 	height: 530px;
 	display: flex;
 	justify-content: space-between;
-	align-items: stretch;
 	overflow: hidden;
 }
 .hero .hero-images {
@@ -278,6 +277,7 @@ body {
 @media screen and (max-width: 640px) {
 	body {
 		font-size: 20px;
+		/* max-width: 200px; */
 	}
 	.top-nav {
 		height: 180px;

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=devie-width, intial-scale=1.0" />
+   <link rel="stylesheet" href="./Styles.css" /> 
+   <title> Survey Form </title>
+   </head>
+  <body>
+    <div class="container">
+    <div class="title">
+    <h1 id="title">MAKZone Survery Form</h1>
+    <p id="description">Thank you for taking  the time to help us improve the platform</p>
+    </div>
+      <form class="form-control" id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <label for="number" id="number-label">Number</label>
+        <input type="number" id="number" min="3" max="3" placeholder="Enter Your Number">
+
+        <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label>
+        <select class="select-style" id="dropdown">
+          <option value="stuent"> Student </option>
+          <option value="intern"> Intern </option>
+          <option value="emp"> Employee </option>
+        </select>
+        <label for="radio-recom" id="recom-main-label">Would you recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name="recom" id="yes"> <label for="yes" id="yes-label"> YES </label>
+        <input type="radio" name="recom" id="maybe"> <label for="maybe" id="maybe-label"> Maybe </label>
+        <input type="radio" name="recom" id="no"><label for="no" id="no-label"> Not Sure </label>
+        <input type="checkbox" name="interests" value="cplus" id="cplus"> <label for="c-lang" id="cplus-label"> C++ </label>
+        <input type="checkbox" value="JAVA" name="interests" id="java"> <label for="java" id="java-label"> JAVA </label>
+        <input type="checkbox" name="interests" id="python"><label for="python" id="python-label"> Python </label>
+        <label for="text-comments" id="comments-label">Any comments or suggestions?</label>
+        <textarea id="text-comments" cols="40" placeholder="Enter you suggestions...."> </textarea>
+        <input type="submit" id="submit">
+        </form>
+    </div>
+
+  </body>
+  </html>
