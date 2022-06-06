@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./styles/style.css" />
+		<title>Google Bootstrap</title>
+	</head>
+	<body>
+        <nav class="navbar navbar-expand"> <!--Expand navbar i,e row default col-->
+                <ul class="navbar-nav ms-auto"> <!--ms-auto for nav right-->
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Gmail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Images</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Box</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">profile</a>
+                    </li>
+                </ul>
+        </nav>
+        <section class="main-sec p-5 m-5 ">
+            <div class="container">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="./assets/googlelogo.png" class="img-fluid w-50" alt="">
+                    <form>
+                        <div class=" form-group p-4">
+                        <input type="email" class="form-control srch " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                        </div>
+                        <div class="d-flex justify-content-evenly px-5">
+                            <button type="submit" class="btn btn-primary">Google Search</button>
+                            <button type="submit" class="btn btn-primary">I'm Feeling Lucky</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
