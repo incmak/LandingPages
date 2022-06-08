@@ -9,28 +9,6 @@ a {
 .navbar-nav a {
 	font-size: 1.1rem;
 }
-@media screen and (min-width: 380px) {
-	.hero-fg-img {
-		width: 100%;
-	}
-    .hero {
-        height: 60%;
-    }
-}
-
-@media screen and (min-width: 780px) {
-	.hero-fg-img {
-		width: 70%;
-	}
-    .hero {
-        height: 60%;
-    }
-}
-@media screen and (min-width: 1000px) {
-    .hero-fg-img {
-		width: 45%;
-	}
-}
 
 .hero-fg-img {
     animation: up-down-fg 5s ease-in infinite;
@@ -52,11 +30,12 @@ a {
     padding: 50px;
 }
 .cards:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(71, 71, 237, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     color: #000;
     transform: translateY(-10%);
     transition: all 1s;
 }
+
 .team-cards {
     position: relative;
     animation: team-cards-anim 5s ease-in forwards;
@@ -83,4 +62,30 @@ a {
     bottom: -15%;
     left: 10%;
     border-radius: 10px;
+}
+
+@media screen and (min-width: 380px) {
+	.hero-fg-img {
+		width: 100%;
+	}
+    .hero {
+        height: 60%;
+    }
+}
+
+@media screen and (min-width: 780px) {
+	.hero-fg-img {
+		width: 70%;
+	}
+    .hero {
+        height: 60%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .hero-fg-img {
+		width: 45%;
+	}
+    .team-main-text {
+        padding: 0 150px;
+    }
 }

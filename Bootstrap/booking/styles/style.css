@@ -1,0 +1,68 @@
+.logo {
+	width: 50px;
+	height: 50px;
+}
+.nav-item .top-link {
+	border-radius: 5px;
+	font-weight: bold;
+}
+.nav-item .top-link:hover {
+	transform: translateY(-15%);
+}
+.main-content:before {
+	content: "";
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	
+	display: block;
+	background: url(../assets/air-bg-3.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed; 
+	height: 100vh;
+	
+	-webkit-filter: blur(20px);
+	-moz-filter: blur(20px);
+	-o-filter: blur(20px);
+	-ms-filter: blur(20px);
+	filter: blur(20px);
+  }
+.book-text {
+	text-shadow: 3px 4px 7px rgba(81, 67, 21, 0.8);
+}
+.dropdown-toggle {
+	border: 1px solid rgb(38, 116, 38);
+}
+.hero-top-btn {
+	border-radius: 0;
+}
+.btn-left {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.btn-rt {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.card-book {
+	background: #fff;
+	max-width: 510px;
+	min-height: 400px;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.right-card {
+	background: rgb(0, 0, 0);
+	max-width: 500px;
+	min-height: 400px;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.car-prev {
+	
+}
